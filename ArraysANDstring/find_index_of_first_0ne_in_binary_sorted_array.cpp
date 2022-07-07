@@ -27,7 +27,7 @@ int main() {
     int n=arr.size();
     int start=0;
     int end=1;
-    int val=1;
+    int val=1; //what we have to find
     while(val>arr[end]){
         start=end;
         end=end*2;
